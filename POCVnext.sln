@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22609.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{68E44F51-2A4C-4179-9BBF-8BB841DF3A08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1EE2F2A6-779B-4A82-AA88-4FBA9C1B56B1}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "POCVnext", "src\POCVnext\POCVnext.kproj", "{6A3EE2F8-99F7-403D-BEED-01C8FDD1ED79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A3EE2F8-99F7-403D-BEED-01C8FDD1ED79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3EE2F8-99F7-403D-BEED-01C8FDD1ED79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3EE2F8-99F7-403D-BEED-01C8FDD1ED79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3EE2F8-99F7-403D-BEED-01C8FDD1ED79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A3EE2F8-99F7-403D-BEED-01C8FDD1ED79} = {68E44F51-2A4C-4179-9BBF-8BB841DF3A08}
+	EndGlobalSection
+EndGlobal
